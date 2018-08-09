@@ -16,7 +16,7 @@ then
 fi
 
 dd if=/dev/zero of=public.sav bs=1 count=$fat_size
-mkfs.msdos -v -F 12 public.sav
+mkfs.msdos -v -F 12 -s 1 -D 0 -r 224 public.sav
 truncate -s ${save_size} public.sav
 mv public.sav "${data_folder}/."
 cp "${1}" "${content_folder}/00000000.app"
