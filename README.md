@@ -1,5 +1,5 @@
 # nds2dsiware
-As DsiWARE public.sav are just truncated FAT12 filesystems this tool generates all necessary files to use .nds NO-INTRO roms with HiyaCFW.
+As DsiWARE public.sav are just truncated FAT12 filesystems this tool generates all necessary files to use .nds NO-INTRO roms with HiyaCFW. Linux-only, not macOS.
 
 Usage:
 ```
